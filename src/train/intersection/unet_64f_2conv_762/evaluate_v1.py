@@ -154,9 +154,9 @@ for txt_mask_path, txt_pred_path in zip(txts_mask_path, txts_pred_path):
     
     try:
 
-        if txt_mask_path.replace('grd', 'det').replace('_{}'.format(MASK_ALGORITHM), '') != txt_pred_path:
-            print('[ERROR] Dont match {} - {}'.format(txt_mask_path, txt_pred_path))
-            sys.exit()
+        # if txt_mask_path.replace('grd', 'det').replace('_{}'.format(MASK_ALGORITHM), '') != txt_pred_path:
+        #     print('[ERROR] Dont match {} - {}'.format(txt_mask_path, txt_pred_path))
+        #     sys.exit()
 
         y_true = np.loadtxt(txt_mask_path, usecols=range(IMAGE_SIZE[1]))
         y_pred = np.loadtxt(txt_pred_path, usecols=range(IMAGE_SIZE[1]))

@@ -17,10 +17,10 @@ import glob
 from collections import defaultdict
 
 import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
+# from keras.backend.tensorflow_backend import set_session
 import keras
 from keras import optimizers
-from keras.callbacks import ModelCheckpoint
+# from keras.callbacks import ModelCheckpoint
 from tensorflow.python.keras import backend as K
 
 from generator import *

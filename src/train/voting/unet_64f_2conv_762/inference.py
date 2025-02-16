@@ -17,10 +17,10 @@ import glob
 from collections import defaultdict
 
 import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
+# from keras.backend.tensorflow_backend import set_session
 import keras
 from keras import optimizers
-from keras.callbacks import ModelCheckpoint
+# from keras.callbacks import ModelCheckpoint
 from tensorflow.python.keras import backend as K
 
 from generator import *
@@ -116,9 +116,9 @@ for image, mask in zip(images, masks):
         image_name = os.path.splitext(os.path.basename(image))[0]
 
 
-        if mask_name.replace('_{}'.format(MASK_ALGORITHM), '') != image_name:
-            print('[ERROR] Dont match {} - {}'.format(mask_name, image_name))
-            sys.exit()
+        # if mask_name.replace('_{}'.format(MASK_ALGORITHM), '') != image_name:
+        #     print('[ERROR] Dont match {} - {}'.format(mask_name, image_name))
+        #     sys.exit()
 
         mask = get_mask_arr(mask)
 

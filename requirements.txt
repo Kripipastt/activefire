@@ -1,0 +1,13 @@
+numpy~=2.0.2
+matplotlib~=3.10.0
+tensorflow~=2.18.0
+keras~=3.8.0
+pandas~=2.2.3
+scikit-learn~=1.6.1
+tqdm~=4.67.1
+rasterio~=1.4.3
+scipy~=1.15.1
+opencv-python~=4.11.0.86
+gdown~=5.2.0
+requests~=2.32.3
+pillow~=11.1.0

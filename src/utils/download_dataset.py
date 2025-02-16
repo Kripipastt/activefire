@@ -30,7 +30,7 @@ REGIONS = {
     'Asia2': '1w_wv0_QZhnH9jO1ygJg6ssTrXupIbTHp', # About 9GB - https://drive.google.com/file/d/1w_wv0_QZhnH9jO1ygJg6ssTrXupIbTHp/view?usp=sharing
     'Asia3': '1heefSuPsnLZkNSJ2jTa4M-jGWo_9nAri', # About 16GB - https://drive.google.com/file/d/1heefSuPsnLZkNSJ2jTa4M-jGWo_9nAri/view?usp=sharing
     'Asia4': '1lyR6y6u8tSozfv3AQJ1PuUcdR0BU9yUk', # About 8GB - https://drive.google.com/file/d/1lyR6y6u8tSozfv3AQJ1PuUcdR0BU9yUk/view?usp=sharing
-    'Asia5': '1Y1UysFrZ8AiugKvDpWI3nHcjo7-CQ4Dp', # Abouut 34GB - https://drive.google.com/file/d/1Y1UysFrZ8AiugKvDpWI3nHcjo7-CQ4Dp/view?usp=sharing
+    'Asia5': '1Y1UysFrZ8AiugKvDpWI3nHcjo7-CQ4Dp', # About 34GB - https://drive.google.com/file/d/1Y1UysFrZ8AiugKvDpWI3nHcjo7-CQ4Dp/view?usp=sharing
 }
 
 SUBSET_SAMPLES = {
